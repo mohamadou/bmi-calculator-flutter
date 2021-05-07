@@ -207,9 +207,6 @@ class _InputPageState extends State<InputPage> {
             onTap: () {
               CalculatorBrain calc =
                   CalculatorBrain(weight: weight, height: height);
-              print('W $weight');
-              print('H $height');
-              print(calc.calculateBMI());
               Navigator.push(
                 context,
                 MaterialPageRoute(
